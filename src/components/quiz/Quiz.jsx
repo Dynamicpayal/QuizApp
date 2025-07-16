@@ -47,7 +47,7 @@ const Quiz = () => {
           <Confetti width={width} height={height} numberOfPieces={300} />
           <h2 className="congratsText">🎉 Congratulations!</h2>
           <p className="scoreText">
-            You scored <strong>{score}</strong>/<strong>{data.length}</strong>
+            You scored <strong>{score}</strong>/<strong>{Data.length}</strong>
           </p>
           <button onClick={resetQuiz}>Restart Quiz</button>
         </>
